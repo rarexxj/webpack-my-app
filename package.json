@@ -1,0 +1,27 @@
+{
+  "name": "webpack-my-app",
+  "version": "1.0.0",
+  "description": "应用于webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "打包工具",
+    "webpack-dev-server"
+  ],
+  "author": "nero",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.18.2"
+  }
+}
